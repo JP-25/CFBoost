@@ -18,7 +18,7 @@ Before running LOCA, you need (1) user embeddings to find local communities and 
 
 `python main.py --model_name LOCA_VAE` 
 
-## Running TALL (MoE)
+## Running CFBoost
 `python main.py --model_name MF_adaboost`
 
 ---
