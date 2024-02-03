@@ -180,7 +180,7 @@ class MF_adaboost(BaseRecommender):
             # # design 2, normalization, comment
             # err = err - 1.6
             stump_weight = np.log((self.beta1) / (self.beta2 + err))  # design 2
-            # stump_weight = softmax(stump_weight / self.tau)
+            stump_weight = softmax(stump_weight / self.tau) # design 2, normalization
 
 
             new_sample_weights = curr_sample_weights * np.exp(stump_weight * err)
