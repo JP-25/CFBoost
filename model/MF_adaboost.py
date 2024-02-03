@@ -174,8 +174,13 @@ class MF_adaboost(BaseRecommender):
 
             # err[err == 0] = 1e-10 #
 
-            # stump_weight = np.log(1 - (curr_sample_weights * err).sum()) # design 1
-            stump_weight = np.log((self.beta1) / (self.beta2 + err)) # design 2
+            # stump_weight = np.log(1 - (curr_sample_weights * err).sum()) + 1.6 # design 1, normalization
+            # stump_weight = np.log(1 - (curr_sample_weights * err).sum())  # design 1
+
+            # # design 2, normalization, comment
+            # err = err - 1.6
+            stump_weight = np.log((self.beta1) / (self.beta2 + err))  # design 2
+            stump_weight = softmax(stump_weight / self.tau)
 
 
             new_sample_weights = curr_sample_weights * np.exp(stump_weight * err)
