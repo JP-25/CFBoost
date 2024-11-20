@@ -1,4 +1,4 @@
-# CFBoost
+# Combating Heterogeneous Model Biases in Recommendations via Boosting
 
 ## Basic Usage
 - Change the experimental settings in `main_config.cfg` and the model hyperparameters in `model_config`. </br>
@@ -19,7 +19,7 @@ Before running LOCA, you need (1) user embeddings to find local communities and 
 `python main.py --model_name LOCA_VAE` 
 
 ## Running CFBoost and CFAdaboost
-Change different designs of &alpha;.
+Change different designs of &alpha; design1 and design 2 in code comment.
 
 `python main.py --model_name MF_adaboost`
 
