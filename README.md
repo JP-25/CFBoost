@@ -19,7 +19,7 @@ Before running LOCA, you need (1) user embeddings to find local communities and 
 `python main.py --model_name LOCA_VAE` 
 
 ## Running CFBoost and CFAdaboost
-Change different designs of &alpha; design1 and design 2 in code comment.
+Change different designs of &alpha;, design1 and design2 in the code.
 
 `python main.py --model_name MF_adaboost`
 
