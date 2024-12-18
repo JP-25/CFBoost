@@ -28,3 +28,6 @@ Change different designs of &alpha;, design1 and design2 in the code.
 ## Requirements
 - Python 3.7 or higher
 - Torch 1.5 or higher
+
+## Appendix
+Complete Appendix can be found [here](https://github.com/JP-25/CFBoost/blob/main/Appendix.pdf)
