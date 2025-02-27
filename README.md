@@ -31,3 +31,24 @@ Change different designs of &alpha;, design1 and design2 in the code.
 
 ## Appendix
 Complete Appendix can be found [here](https://github.com/JP-25/CFBoost/blob/main/Appendix.pdf)
+
+## Citation
+cited papaer:
+```
+@inproceedings{10.1145/3701551.3703505,
+author = {Pan, Jinhao and Caverlee, James and Zhu, Ziwei},
+title = {Combating Heterogeneous Model Biases in Recommendations via Boosting},
+year = {2025},
+isbn = {9798400713293},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3701551.3703505},
+doi = {10.1145/3701551.3703505},
+booktitle = {Proceedings of the Eighteenth ACM International Conference on Web Search and Data Mining},
+pages = {222–231},
+numpages = {10},
+keywords = {boosting, collaborative filtering, model biases, recommender systems},
+location = {Hannover, Germany},
+series = {WSDM '25}
+}
+```
